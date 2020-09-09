@@ -1,8 +1,60 @@
 body {
   box-sizing: border-box;
+  text-align: center;
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: inherit;
+}
+
+.header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  background-color: crimson;
+  padding: 20px;
+}
+.menu {
+  background-color: darkmagenta;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.banner {
+  background-color: darkorange;
+  padding: 50px;
+
+  width: 40%;
+
+  align-self: center;
+}
+
+.main {
+  margin-bottom: 10px;
+  /* width: 100vmax;
+  height: 400px; */
+  display: flex;
+}
+.aside {
+  background-color: deeppink;
+  /* height: 250px;
+  width: 20%; */
+  margin: 10px;
+  padding:100px;
+  height:50%
+}
+.content {
+  background-color: deepskyblue;
+  /* height: 100%;
+  width: 80%; */
+  margin: 10px;
+  padding:200px;
+  width: 100%;
+}
+.footer {
+  background-color: cornflowerblue;
+
+  padding:10px;
 }
