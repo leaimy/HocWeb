@@ -24,7 +24,7 @@ body {
 }
 
 .danhsach {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   justify-content: flex-start;
 }
@@ -38,7 +38,7 @@ body {
 .banner {
   background-color: darkorange;
   padding: 50px;
-  width: 40%;
+  margin:0 auto;
   align-self: center;
 }
 
@@ -67,4 +67,47 @@ body {
 .footer {
   background-color: cornflowerblue;
   padding: 10px;
+}
+
+.form {
+  background-color: white;
+  color: #333;
+  width: 400px;
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px -3px rgba(0, 0, 0, 0.3);
+}
+.form-control {
+  text-align: center;
+}
+.form-control input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.form-control input[type="submit"] {
+  cursor: pointer;
+}
+
+.form-control a {
+  text-decoration: none;
+}
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  /* display:flex; */
+  justify-content: center;
+  align-items: center;
+
+  display: none;
 }
