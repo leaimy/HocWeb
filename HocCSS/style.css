@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
   text-align: center;
+  font-family: sans-serif;
 }
 * {
   padding: 0;
@@ -18,9 +19,11 @@ body {
   padding: 20px;
 }
 .menu {
-  background-color: darkmagenta;
+  background-color: #609810;
   margin-bottom: 10px;
   font-size: 14px;
+  color:white;
+
 }
 
 .danhsach {
@@ -30,6 +33,12 @@ body {
 }
 .item {
   margin: 10px;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.5s;
+}
+.item:hover{
+  filter:opacity(.8);
 }
 .item.sau {
   margin-left: auto;
@@ -38,8 +47,9 @@ body {
 .banner {
   background-color: darkorange;
   padding: 50px;
-  margin:0 auto;
-  align-self: center;
+  width: 40%;
+  /* align-self: center; */
+  margin: 0 auto;
 }
 
 .main {
