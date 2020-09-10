@@ -1,12 +1,17 @@
 var loginBtn = document.getElementById("login-button");
-var loginForm = document.querySelector(".login-modal");
+var loginFormContainer = document.querySelector(".login-modal");
 var closeBtn = document.querySelector(".close-button");
+var loginForm = document.querySelector(".form");
 function handleClick() {
-  loginForm.style.display = "flex";
+  loginFormContainer.style.display = "flex";
 }
 function handleClose() {
-  loginForm.style.display = "none";
+  loginFormContainer.style.display = "none";
 }
 
 loginBtn.addEventListener("click", handleClick);
 closeBtn.addEventListener("click", handleClose);
+loginFormContainer.addEventListener("click", handleClose);
+loginForm.addEventListener("click", function (e) {
+  e.stopPropagation();
+});
