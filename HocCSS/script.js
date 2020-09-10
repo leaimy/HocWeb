@@ -1,7 +1,7 @@
-var loginBtn = document.getElementById("login-button");
-var loginFormContainer = document.querySelector(".login-modal");
-var closeBtn = document.querySelector(".close-button");
-var loginForm = document.querySelector(".form");
+const loginBtn = document.getElementById("login-button");
+const loginFormContainer = document.querySelector(".login-modal");
+const closeBtn = document.querySelector(".close-button");
+const loginForm = document.querySelector(".form");
 function handleClick() {
   loginFormContainer.style.display = "flex";
 }
