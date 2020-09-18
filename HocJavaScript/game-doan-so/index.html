@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Game Đoán Số</h1>
+    <div class="row" id="row">
+      <input id="min" type="text" placeholder="Số bắt đầu..." />
+      <input id="max" type="text" placeholder="Số kết thúc..." />
+    </div>
+    <div class="taoSo">
+      <button id="soBiMat">Tạo số bí mật</button>
+    </div>
+    <p id="khoang"></p>
+    <div class="form-group">
+      <label for="soCanDoan">Mời bạn nhập vào số cần đoán: </label>
+      <input type="text" id="soCanDoan" placeholder="Số..." />
+      <button id="soDoan">Đoán số</button>
+    </div>
+    <div class="ket-qua" id="ket-qua-box">
+      <p id="ket-qua"></p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

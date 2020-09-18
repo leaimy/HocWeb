@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  background-color: #ffc1f3;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Sriracha', cursive;
+  font-size: 20px;
+  color: #251f44;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  /* display: block; */
+  text-align: center;
+  padding: 40px;
+  color: #251f44;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.taoSo {
+  display: flex;
+  justify-content: center;
+}
+#soBiMat,
+#soDoan {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #251f44;
+  cursor: pointer;
+  margin-bottom: 20px;
+  outline: none;
+  color: #fff;
+}
+#min,
+#max,
+#soCanDoan {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #fe91ca;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+#khoang {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  color: #251f44;
+  margin-bottom: 50px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ket-qua {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 600px;
+  height: 100px;
+  border: 1px dashed black;
+  margin: 0 auto;
+}
