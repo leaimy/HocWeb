@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 2px solid black;
+  width: auto;
+  padding: 20px;
+}
+.hang {
+  display: flex;
+}
+.cell {
+  /* padding: 20px; */
+  border: 3px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.cell.sokhong {
+  width: 105px;
+  border-radius: 30px;
+}
+.hienthi {
+  padding: 10px 7px;
+  font-size: 60px;
+  text-align: right;
+  border: 2px solid black;
+}
