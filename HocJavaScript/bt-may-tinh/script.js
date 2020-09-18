@@ -1,6 +1,7 @@
 const mangSo = document.querySelectorAll('.cell');
 const hienThi = document.querySelector('.manhinh');
 const ketqua = document.getElementById('ketqua');
+const ac = document.getElementById('xoa');
 
 let bieuthuc = '';
 let mangBieuThuc = [];
@@ -22,6 +23,12 @@ ketqua.addEventListener('click', function () {
   const kq = tinhToan(so1, so2, pheptoan);
 
   hienThi.textContent = kq;
+});
+
+ac.addEventListener('click', function () {
+  hienThi.textContent = '0';
+  bieuthuc = '';
+  mangBieuThuc = [];
 });
 
 function tinhToan(so1, so2, pheptoan) {
